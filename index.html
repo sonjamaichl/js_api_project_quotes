@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="quotes.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <h1>More or less useful quotes from a more or less useful API</h1>
+    <h2>Get a more or less useful random quote</h2>
+    <div>
+       <p class="button" onclick="generateRandomQuote()">Click here to generate a random quote</p>
+       <div id="random-quote-container">
+        <!--randomly generated blockquote will be inserted here-->
+       </div>   
+    </div>
+    <h2>Here you find a list of all quotes:</h2>
+    <div>
+       <table>
+        <thead>
+            <tr>
+                <th>More or less useful quote</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody id="quotes-list">
+
+        </tbody>
+       </table>
+        <!--JS generates a table and inserts it here-->
+    </div>
+
+    
+</body>
+</html>

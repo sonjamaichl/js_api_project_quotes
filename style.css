@@ -1,0 +1,14 @@
+td, th {
+    border: 1px solid black;
+}
+
+.button {
+    background-color: rgb(228, 65, 130);
+    display: inline;
+    padding: 8px 16px;
+
+}
+
+.button:hover {
+    background-color: orangered;
+}
