@@ -1,0 +1,6 @@
+# js_api_project
+my first javascript project using an api
+
+in this project I'm using zenquotes.io api to create a page that shows a random quote or a list of quotes
+quotes can be filtered e.g. by author, length or kerywords, so the user could choose a matching quote for a given topic or find quotes from their favorite author...
+nothing fancy just for practising...
